@@ -1,0 +1,33 @@
+* {
+  font-weight: 300;
+}
+
+ion-content {
+  --background: rgba(4, 255, 213, 0.712);;
+}
+ion-text {
+  position: absolute;
+  top: 20%;
+  color: rgb(9, 5, 5);
+  font-family: Arial, sans-serif;
+  h1 {
+    font-size: 70px;
+    margin-left: 50px;
+  }
+  h2 {
+    margin-left: 175px;
+    margin-top: 50px;
+    position: absolute;
+    font-family: Arial, sans-serif;
+  }
+}
+img {
+  width: 640px;
+  height: 600px;
+}
+ion-toolbar {
+  --background: rgb(0, 0, 0);
+}
+ion-titel {
+  color: rgb(251, 250, 250);
+}
