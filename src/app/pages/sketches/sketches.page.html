@@ -1,0 +1,101 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sketches</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img id="image4" expand="block" src="assets/img/image4.png" alt="Img number 4"/>
+      <ion-modal #modal8 trigger="image4">
+        <ng-template>
+          <ion-button (click)="modal8.dismiss()">Close</ion-button>
+            <img alt="img number 4" src="assets/img/image4.png"/>
+        </ng-template>
+      </ion-modal>
+      <ion-card-header>
+        <ion-card-title>Login</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Login Screen which required "User Name" & "Password" to login or "Sign-up" option for new user.
+      </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img id="image5" expand="block" alt="img number 5" src="assets/img/image5.png" />
+    <ion-modal #modal1 trigger="image5">
+      <ng-template>
+        <ion-button (click)="modal1.dismiss()">Close</ion-button>
+          <img alt="img number 5" src="assets/img/image5.png" />
+      </ng-template>
+    </ion-modal>
+    <ion-card-header>
+      <ion-card-title>Sign-In</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Sign-In form for new user.
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img id="image6" expand="block" alt="img number 6" src="assets/img/image6.png" />
+    <ion-modal #modal2 trigger="image6">
+      <ng-template>
+        <ion-button (click)="modal2.dismiss()">Close</ion-button>
+          <img alt="img number 6" src="assets/img/image6.png" />
+      </ng-template>
+    </ion-modal>
+    <ion-card-header>
+      <ion-card-title>To Do/Shopping List</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      To create new shopping list for user-based  
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img id="image7" expand="block" alt="img number 7" src="assets/img/image7.png" />
+    <ion-modal #modal3 trigger="image7">
+      <ng-template>
+        <ion-button (click)="modal3.dismiss()">Close</ion-button>
+          <img alt="img number 7" src="assets/img/image7.png" />
+      </ng-template>
+    </ion-modal>
+    <ion-card-header>
+      <ion-card-title>Adding Item to List</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      The user will be given a selection of item to choose from or add a item and quantity.
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img id="image8" expand="block" alt="img number 8" src="assets/img/image8.png" />
+    <ion-modal #modal4 trigger="image8">
+      <ng-template>
+        <ion-button (click)="modal4.dismiss()">Close</ion-button>
+          <img alt="img number 8" src="assets/img/image8.png" />
+      </ng-template>
+    </ion-modal>
+    <ion-card-header>
+      <ion-card-title>Location List</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      The user will be given a selection of locations to choose from or add to receive notifications.
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img id="image9" expand="block" alt="img number 9" src="assets/img/image9.png" />
+    <ion-modal #modal9 trigger="image9">
+      <ng-template>
+        <ion-button (click)="modal9.dismiss()">Close</ion-button>
+          <img alt="img number 9" src="assets/img/image9.png" />
+      </ng-template>
+    </ion-modal>
+    <ion-card-header>
+      <ion-card-title>notifications</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      when user arrive at or are close to the chosen location he will get alert/reminder of list it
+    </ion-card-content>
+  </ion-card>
+</ion-content>
