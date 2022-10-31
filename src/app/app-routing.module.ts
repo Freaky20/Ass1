@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'tecnologies',
     loadChildren: () => import('./pages/tecnologies/tecnologies.module').then( m => m.TecnologiesPageModule)
   },
+  {
+    path: 'user',
+    loadChildren: () => import('./pages/user/user.module').then( m => m.UserPageModule)
+  },
 ];
 
 @NgModule({
