@@ -1,5 +1,5 @@
 ion-content {
-    --background: rgba(4, 255, 213, 0.712);
+    --background: rgba(4, 255, 213);
 }
 h2 {
     color: rgb(255, 255, 255);
@@ -20,4 +20,7 @@ p {
 }
 ion-toolbar {
     --background: rgb(0, 0, 0);
+  }
+  ion-title {
+    color: rgb(255, 255, 255);
   }
